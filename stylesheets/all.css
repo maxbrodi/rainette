@@ -9293,6 +9293,40 @@ body {
 .mainimage img {
   width: 100%; }
 
+/* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+.map-holder {
+  padding-left: 0;
+  padding-right: 0; }
+
+/* line 10, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+.informations {
+  padding: 1em; }
+
+/* line 14, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+.infotxt {
+  text-align: center;
+  margin-top: 2em; }
+
+/* line 19, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#map {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  padding: 0; }
+
+/* line 26, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#address {
+  font-weight: 600; }
+
+/* line 30, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#contact {
+  font-weight: 600;
+  margin-top: 1em; }
+
+/* line 36, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#horaires p {
+  margin: 4px; }
+
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishpage-holder {
   margin-top: 2em;
@@ -9350,6 +9384,37 @@ body {
   width: 5%;
   padding-bottom: 2px;
   margin-right: 7px; }
+
+/* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+.press-page {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/* line 6, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+.press-card-holder {
+  padding: 2em;
+  height: 20vh; }
+
+/* line 15, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+.pressimage {
+  width: 81px;
+  position: absolute;
+  right: 1em; }
+
+/* line 21, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+.article-review {
+  text-align: justify;
+  min-height: 9vh; }
+  /* line 24, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+  .article-review .fa {
+    padding-right: 0.5em;
+    font-size: 16px; }
+
+/* line 30, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_press.scss */
+.article-name {
+  text-align: right;
+  font-weight: 600;
+  padding-top: 0.3em; }
 
 /*
 ==============================================
