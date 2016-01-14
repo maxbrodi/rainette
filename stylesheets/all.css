@@ -9150,7 +9150,8 @@ button.close {
 
 /* line 22, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
 .footelement {
-  padding: 1em 0; }
+  padding: 1em 0;
+  min-height: 8vh; }
 
 /* line 6, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_navbar.css.scss */
 .navbar {
@@ -9209,6 +9210,16 @@ body {
   background: white;
   padding-left: 0;
   padding-right: 0; }
+
+/* line 39, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_utilities.css.scss */
+#legal {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 11px; }
+  /* line 44, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_utilities.css.scss */
+  #legal a {
+    color: #555555; }
 
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/components/_avatar.scss */
 .avatar {
@@ -9326,6 +9337,16 @@ body {
 /* line 36, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
 #horaires p {
   margin: 4px; }
+
+/* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_legal.scss */
+.mentions {
+  padding: 4em; }
+
+/* line 5, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_legal.scss */
+.mention-title {
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 2em; }
 
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishpage-holder {
