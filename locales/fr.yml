@@ -1,9 +1,8 @@
 ---
 fr:
-  mainmessage: Ouvert de 10h à 22h du Lundi au Samedi.
+  mainmessage: Le bar à Grenouilles est ouvert !
   address: 11 rue de la Cuisse, 75003 Paris
   social:
-    twitter: http://www.twitter.com
     facebook: http://www.facebook.com
     instagram: http://www.instagram.com
   nav:
@@ -150,5 +149,5 @@ fr:
     adressesiege: 11 rue de la Cuisse, 75003 Paris
   switch:
     text: English version
-    url: /en
+    url: rainette/en
 

@@ -2,10 +2,11 @@
   background: $red;
   text-align: center;
   // padding: 1em 0;
+  color: #ffb4b4;
   a{
-    color: #333333;
+    color: #ffb4b4;
     &:hover{
-      color: $gray-darker;
+      color: white;
       text-decoration: none;
     }
   }

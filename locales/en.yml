@@ -1,9 +1,8 @@
 ---
 en:
-  mainmessage: Open every week day 10am-10pm.
+  mainmessage: Our frogs bar is open
   address: 11 rue de la Cuisse, 75003 Paris
   social:
-    twitter: http://www.twitter.com
     facebook: http://www.facebook.com
     instagram: http://www.instagram.com
   nav:
@@ -150,4 +149,4 @@ en:
     adressesiege: 11 rue de la Cuisse, 75003 Paris
   switch:
     text: Version Française
-    url: /fr
+    url: rainette/fr
