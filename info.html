@@ -11,10 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Bienvenue chez Rainettes</title>
+    <title>Rainettes - Info</title>
 
-    <link href="../stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <script src="../javascripts/all.js" type="text/javascript"></script>
+    <link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
 
-  <body class="fr fr_index">
+  <body class="info">
 
   <div class="container">
     <div class="row">
@@ -35,7 +35,7 @@
   <div class="container-fluid">
     <div class="row navrow">
       <div class="visible-xs visible-sm col-xs-12 navlogo">
-<a href="./"><img src="../images/rainettesbiglogo.png" /></a>      </div>
+<a href="./"><img src="images/rainettesbiglogo.png" /></a>      </div>
       <div class="col-xs-6 col-sm-3 col-md-2 navlink">
         <a href="concept.html">CONCEPT</a>
       </div>
@@ -43,7 +43,7 @@
         <a href="menu.html">MENU</a>
       </div>
       <div class="hidden-xs hidden-sm col-xs-4 navlogo">
-<a href="./"><img src="../images/rainettesbiglogo.png" /></a>      </div>
+<a href="./"><img src="images/rainettesbiglogo.png" /></a>      </div>
       <div class="col-xs-6 col-sm-3 col-md-2 navlink">
         <a href="press.html">PRESSE</a>
       </div>
@@ -55,11 +55,44 @@
 </nav>
 
         <div class="container-fluid">
-  <div class="row news">
-    Le bar à Grenouilles est ouvert !
-  </div>
-  <div class="row mainimage">
-    <img src="../images/rainettesbar.jpg" />
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 hidden-xs bigcard map-holder">
+      <!-- The map will be drawn in this div -->
+      <div id="map"></div>
+
+      <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+      <script src="https://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js"></script>
+
+      <!-- Require jQuery and Google map For rails javascript lib -->
+      <script src="https://wagon-google-maps-markers.herokuapp.com/assets/application-5034196864c74ae1cc5f12e6d1f71223.js" type="text/javascript"></script>
+
+      <script type="text/javascript">
+        $(document).on('ready', function() {
+          var handler = Gmaps.build('Google');
+          handler.buildMap({ internal: { id: 'map' } }, function(){
+            markers = handler.addMarkers([
+                { "lat": 48.869828 , "lng": 2.3540821 }
+              ]);
+            handler.bounds.extendWith(markers);
+            handler.fitMapToBounds();
+            handler.getMap().setZoom(16);
+          });
+        })
+      </script>
+    </div>
+    <div class="col-xs-12 col-sm-6 bigcard info-holder">
+      <div class="informations">
+        <img src="images/rainettesrestaurant.jpg" />
+        <div class="infotxt">
+          <p id="address"><a href="http://maps.google.com/?q=11%20rue%20de%20la%20Cuisse,%2075003%20Paris">11 rue de la Cuisse, 75003 Paris</a></p>
+          <div id="horaires">
+            <p>Ouvert tous les soirs 19h-22h30</p>
+            <p>Samedi et Dimanche 12h30-14h30 & 19h-23h</p>
+          </div>
+          <p id="contact">04 57 68 09 39 - beubeu@gmail.com </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
