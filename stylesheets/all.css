@@ -3759,23 +3759,23 @@ select[multiple].input-lg,
 /* line 79, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
-  background-color: #EE5F5B;
-  border-color: #ec4844; }
+  background-color: #D3002E;
+  border-color: #b90028; }
   /* line 11, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #e9322d;
-    border-color: #dc1c17; }
+    background-color: #a00023;
+    border-color: #7c001b; }
   /* line 21, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-    background-color: #EE5F5B;
-    border-color: #ec4844; }
+    background-color: #D3002E;
+    border-color: #b90028; }
   /* line 40, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger .badge {
-    color: #EE5F5B;
+    color: #D3002E;
     background-color: #fff; }
 
 /* line 88, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5216,10 +5216,10 @@ a.label:hover, a.label:focus {
 
 /* line 64, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
-  background-color: #EE5F5B; }
+  background-color: #D3002E; }
   /* line 7, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-danger[href]:hover, .label-danger[href]:focus {
-    background-color: #e9322d; }
+    background-color: #a00023; }
 
 /* line 7, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
 .badge {
@@ -5473,7 +5473,7 @@ a.thumbnail.active {
 
 /* line 85, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-danger {
-  background-color: #EE5F5B; }
+  background-color: #D3002E; }
   /* line 7, /Users/brodi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-danger {
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
@@ -9130,32 +9130,33 @@ button.close {
 
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
 .footer {
-  background: #EE5F5B;
-  text-align: center; }
-  /* line 5, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
+  background: #D3002E;
+  text-align: center;
+  color: #ffb4b4; }
+  /* line 6, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
   .footer a {
-    color: #333333; }
-    /* line 7, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
+    color: #ffb4b4; }
+    /* line 8, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
     .footer a:hover {
-      color: #222222;
+      color: white;
       text-decoration: none; }
-  /* line 12, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
+  /* line 13, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
   .footer i {
     font-size: 26px;
     padding: 0 0.4em; }
-  /* line 16, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
+  /* line 17, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
   .footer p {
     margin-bottom: 0;
     line-height: 26px; }
 
-/* line 22, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
+/* line 23, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_footer.css.scss */
 .footelement {
   padding: 1em 0;
   min-height: 8vh; }
 
 /* line 6, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_navbar.css.scss */
 .navbar {
-  background: #EE5F5B;
+  background: #D3002E;
   padding: 0 1em;
   text-align: center;
   margin-bottom: 0; }
@@ -9174,6 +9175,10 @@ button.close {
 /* line 25, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_navbar.css.scss */
 .navlink {
   padding: 2em; }
+
+/* line 30, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_navbar.css.scss */
+.navlogo img {
+  width: 70%; }
 
 /* -------------------------------------
  * Utilities classes
@@ -9203,7 +9208,7 @@ button.close {
 
 /* line 29, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_utilities.css.scss */
 body {
-  background: #fff7d7; }
+  background: #f5f9ff; }
 
 /* line 33, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/layout/_utilities.css.scss */
 .main {
@@ -9259,7 +9264,7 @@ body {
   background: grey; }
   /* line 22, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/components/_badge.scss */
   .icon-badge-red, .user-badge-red {
-    background: #EE5F5B; }
+    background: #D3002E; }
   /* line 25, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/components/_badge.scss */
   .icon-badge-green, .user-badge-green {
     background: #32B796; }
@@ -9376,7 +9381,7 @@ body {
 
 /* line 28, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .catdescription {
-  color: #EE5F5B;
+  color: #D3002E;
   font-weight: 600;
   margin: 2em 0em 0.4em 0em; }
 
@@ -9393,7 +9398,7 @@ body {
 .dishprice {
   text-align: right;
   font-weight: bold;
-  color: #EE5F5B; }
+  color: #D3002E; }
 
 /* line 53, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishdescription {
