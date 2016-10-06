@@ -1,7 +1,7 @@
 ---
 fr:
   mainmessage: Le bar à Grenouilles est ouvert !
-  address: 11 rue de la Cuisse, 75003 Paris
+  address: 5 Rue Caron, 75004 Paris
   social:
     facebook: http://www.facebook.com
     instagram: http://www.instagram.com
@@ -13,144 +13,140 @@ fr:
     legal: Mentions Légales
   concept:
     p0: "Ils voulaient dévoiler la grenouille, et du peuple de Paris, la fine équipe l'en fit bien aimer."
-    p1: |
-"Il était une fois un soir de l’été 2014 \: Yves, maître d’hôtel au service bien léché, et Ombeline, jeune cosmopolite et dynamique, travaillent ensemble dans un restaurant parisien. Ils partagent l’amour du service et surtout celui des grenouilles. Malheureusement les deux acolytes sont verts \: il s’avère qu’à Paris, dénicher des cuisses de grenouilles est un chemin de croâ. Ils sont contraints de bondir de restaurants huppés en attrape-touristes. Il semble bien que les français, qui se vantent tant de leur Marais, ont oublié les cuisses de grenouilles ! Pourtant nos deux têtards, forts de leurs barbotages en contrées lointaines, savent bien que le monde entier nous appelle \« froggies \», convaincu que nous en gobons à longueur de journée, accompagnées de baguettes à l’oignon à l’ombre de nos bérets."
-    p2: |
-# "Pendant plusieurs mois, Yves et Ombeline crapauhutent pour récolter des statistiques. La prise de conscience est dramatique: seuls 55% des français ont déjà goûté à ce plat pourtant bien gaulois, consommé depuis le XVIème siècle, glorifié par Alexandre Dumas et sublimé par les plus grands chefs étoilés tel Bernard Loiseau avec ses fameuses cuisses à l’ail et au persil ! Les temps ont bien changé."
-    p3: |
-# "Les deux foodistas prennent leur courage à deux palmes : le retour de la grenouille sera désormais leur combat. Se métamorphosant en hérauts de la grenouille française, ils s’attaquent à ce marché qui croâ et s’attèlent à leurs marmites. Pour cela ils créent Rainettes, le premier bar à grenouilles, où frogstalgiques et food trotters peuvent venir (re)découvrir, sous forme de plat ou d’apéritif à partager, des cuisses étonnamment appétissantes déclinées à l’infini, dans une ambiance conviviale au coeur de Paris."
+    p1: "Il était une fois un soir de l’été 2014 : Yves, maître d’hôtel au service bien léché, et Ombeline, jeune cosmopolite et dynamique, travaillent ensemble dans un restaurant parisien. Ils partagent l’amour du service et surtout celui des grenouilles. Malheureusement les deux acolytes sont verts : il s’avère qu’à Paris, dénicher des cuisses de grenouilles est un chemin de croâ. Ils sont contraints de bondir de restaurants huppés en attrape-touristes. Il semble bien que les français, qui se vantent tant de leur Marais, ont oublié les cuisses de grenouilles ! Pourtant nos deux têtards, forts de leurs barbotages en contrées lointaines, savent bien que le monde entier nous appelle 'froggies', convaincu que nous en gobons à longueur de journée, accompagnées de baguettes à l’oignon à l’ombre de nos bérets."
+    p2: "Pendant plusieurs mois, Yves et Ombeline crapauhutent pour récolter des statistiques. La prise de conscience est dramatique: seuls 55% des français ont déjà goûté à ce plat pourtant bien gaulois, consommé depuis le XVIème siècle, glorifié par Alexandre Dumas et sublimé par les plus grands chefs étoilés tel Bernard Loiseau avec ses fameuses cuisses à l’ail et au persil ! Les temps ont bien changé."
+    p3: "Les deux foodistas prennent leur courage à deux palmes : le retour de la grenouille sera désormais leur combat. Se métamorphosant en hérauts de la grenouille française, ils s’attaquent à ce marché qui croâ et s’attèlent à leurs marmites. Pour cela ils créent Rainettes, le premier bar à grenouilles, où frogstalgiques et food trotters peuvent venir (re)découvrir, sous forme de plat ou d’apéritif à partager, des cuisses étonnamment appétissantes déclinées à l’infini, dans une ambiance conviviale au coeur de Paris."
   menu:
     maindishes:
-      - name: Entrées
-        price: 5
+      - name: Au bar
+        price:
         souscat:
           - items:
-            - name: Soupe de lentilles corail
-            - name: Salade de saison
-            - name: Plateau de charcuterie
-      - name: Formule découverte
-        price: 15
+            - name: Portion découverte de grenouilles
+              price: 5
+              description: A la provençale / En Beignets / Sautées BBQ
+            - name: Planche de grenouilles
+              price: 14
+            - name: Mini vols au vent de grenouilles
+              price: 10
+              description: avec chips maison
+            - name: Planche de fromage et/ou charcuterie
+              price: 15
+      - name: Plat de grenouilles
+        price: 25
+        souscat:
+          - description: "Grenouilles au choix:"
+            items:
+              - name: Provençales
+                description: sur leur lit de purée d'ail et de persil
+              - name: Normandes
+                description: "pommes, calvados, crème fraîche"
+              - name: Sichuanaises
+                description: "coriande, gingembre, oignon, ail, piment, sauce soja, miel"
+              - name: Alsaciennes
+                description: "Riesling, échalotes, persil"
+              - name: Ibériques
+                description: "chorizo piquant, citrons confits, basilic, poivrons rouges"
+          - description: "Accompagnement au choix:"
+            items:
+              - name: Riz du moment
+              - name: Légumes de saison
+              - name: Gratin de pommes de terre
+      - name: Diptyque à partager
+        price: 35
         souscat:
           - items:
-            - name: Grenouilles et verre de vin
-      - name: Planches
-        price: 18
+            - name: Deux plats de grenouilles à choisir
+            - name: Deux accompagnements à choisir
+      - name: Plats du moment
+        price: 17
         souscat:
-          - description: Grenouilles à choisir parmi
-            items:
-              - name: Meunières
-                description: et ses 2 sauces
-              - name: Tempura
-                description: aux herbes
-              - name: A la panure persillée
-                description: et ses 3 sauces
-              - name: A la panure d’encre de seiche
-                description: et ses 3 sauces
-              - name: A la persillade
-                description: et julienne de lard
-              - name: Caramélisées
-                description: façon Yakitori
-              - name: Marinées au gingembre et au citron vert
-                description: condiment coriandre et citronnelle
-              - name: Ravioles de grenouilles
-                description: sauce poulette
-              - name: Panées à la noisette
-                description: sauce aigre doux et coco
-              - name: Façon saté
-          - description: 2 accompagnements à choisir parmi
-            items:
-              - name: Pommes grenouille
-              - name: Pommes gaufrettes
-              - name: Pommes frites à l’ail semoule
-              - name: Céleri et rhubarbe cuits
-              - name: Assortiment de purées de saison
-              - name: Maïs soufflé
-              - name: Légumes gratinés au parmesan
-              - name: Courgette farcie de légumes
+          - items:
+            - name: Vegetarien
+            - name: Viande ou poisson
+      - name: Assiette de fromages
+        price: 12
+        souscat:
     dessertdrinks:
+      - name: Entrées
+        price: 9
+        souscat:
+          - items:
+            - name: Escargots
+            - name: Beignets de grenouilles
+            - name: Croustillant de Sainte-Maure de Touraine AOP
+              description: salade verte
       - name: Desserts
-        price: 8
+        price: 9
         souscat:
           - items:
-            - name: Gâteau caramélisé aux pommes
-            - name: Fondant au chocolat praliné
-            - name: Marquise au chocolat
-      - name: Cocktails
-        price: 13
+            - name: Charlotte au chocolat
+            - name: Tarte fine aux pommes
+            - name: Crème renversée
+            - name: Baba au rhum
+      - name: Nos Cocktails
+        price: 11
         souscat:
           - items:
-            - name: Cocktail Rouge
-            - name: Cocktail Bleu
-            - name: Cocktail Cyan
-            - name: Cocktail Abricot
-            - name: Cocktail Rose
-            - name: Cocktail Violet
-      - name: Vins
+            - name: Bombina
+              description: "Champagne, curaçao bleu, jus de citron, Amaretto"
+            - name: Phyllobates
+              description: "Liqueur Saint Germain, jus de citron jaune, jus de pomme, bitters Angostura"
+            - name: Pélodyte
+              description: "vodka, triple sec, tonic, sirop de kiwi"
+            - name: Crossodactylus
+              description: "3 rhums, jus exotiques"
+            - name: Ridibunda
+              description: "bourbon, liqueur Saint Germain, Bitters orange, sucre, eau gazeuse"
+            - name: Rana Temporaria
+              description: "Tequila dorée, sirop de sucre, jus de citron, blanc d’œuf, sherry Amontillado, bitters orange"
+            - name: Discoglosse
+              description: "cognac, calvados, Bitter Truth Jerry Thomas, bitters vanille"
+      - name: Boissons rafraichissantes
+        price: 6
+        souscat:
+          - items:
+            - name: Thé glacé maison
+            - name: Jus d'oranges pressées maison
+            - name: Jus de pommes pressées maison
+      - name: Selection de vins
         souscat:
             - items:
-              - name: Verre
-                price: 5
-              - name: Chateau Poisson
-                price: 25
-              - name: Chateau Chat
-                price: 30
-              - name: Chateau Plume
-                price: 40
-      - name: Bières
-        souscat:
-            - items:
-              - name: Bière 25cl
-                price: 4.5
-              - name: Beer 25cl
-                price: 4.5
-              - name: Cerveza 50cl
-                price: 7
-      - name: Boissons chaudes
-        souscat:
-          - items:
-            - name: Café
-              price: 2
-            - name: Thé
-              price: 2.5
-      - name: Soft
-        souscat:
-          - items:
-            - name: Coca-Cola
-              price: 3
-            - name: Coca-Cola Light
-              price: 3
-            - name: Coca-Cola Zero
-              price: 3
+              - name: "Au verre, en carafe ou en bouteille"
   press:
-    - name: Le Monde
-      url: http://www.lemonde.fr/
-      image: lemonde.png
-      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
-    - name: Le Monde
-      url: http://www.lemonde.fr/
-      image: lemonde.png
-      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
+    - name: Elle
+      url: http://www.elle.fr/Loisirs/Sorties/Restaurants/Nouveaux-restaurants-Paris/Rainettes-le-premier-bar-a-grenouilles
+      image: elle.png
+      text: "Frogista ou frogstalgiques, votre cause a été entendue."
+    - name: Telerama
+      url: http://www.telerama.fr/sortir/ces-restaurants-dont-tout-le-monde-va-parler-a-la-rentree,146807.php
+      image: telerama.png
+      text: "Ni tout à fait sur terre, ni tout à fait sur l’eau…"
+    - name: Le Figaro
+      url: http://www.lefigaro.fr/sortir-paris/2016/09/07/30004-20160907ARTFIG00046-les-30-tables-de-la-rentree-2016-a-paris.php
+      image: lefigaro.png
+      text: "Dans la série monomaniaque, ce futur bar à grenouilles"
+    - name: Paris Bouge
+      url: https://www.parisbouge.com/place/4642
+      image: parisbouge.png
+      text: "Le mono produit continue d’envahir Paris !"
+    - name: My Little Paris
+      url: https://www.instagram.com/p/BKbLTEJhSTw/
+      image: mylittleparis.png
+      text: "After tasting the tapas and sharing plates from Paris's first ever frog bar, we're flattered "
+    - name: Frigoandco
+      url: http://www.frigoandco.com/2016/09/rainettes-bar-a-grenouilles-paris-4/
+      image: frigoandco.png
+      text: "Les recettes sont originales et parfaitement maîtrisées "
   info:
-    telephone: 04 57 68 09 39
-    email: beubeu@gmail.com
-    hours1: Ouvert tous les soirs 19h-22h30
-    hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
+    telephone: +33 9 86 59 63 85
+    email: contact@rainettes.com
+    hours1: Ouvert du mardi au jeudi de 17h à 23H30
+    hours2: "Vendredi-samedi-dimanche: 11h-Minuit"
     companyname: Rainettes SAS
-    siret: XXXXXXXXXXX
-    adressesiege: 11 rue de la Cuisse, 75003 Paris
+    siret: 819 879 032 00020
+    adressesiege: 5 Rue Caron, 75004 Paris
   switch:
     text: English version
-    url: rainette/en
+    url: /en
 

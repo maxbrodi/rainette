@@ -7,13 +7,19 @@ title: Rainettes - Press
     <% t(:press).each do |newspaper| %>
     <div class="col-xs-12 col-sm-6 press-card-holder">
       <div class="row press-card">
-        <div class="col-xs-3"><%= image_tag newspaper[:image], class: "pressimage"%></div>
+        <div class="col-xs-3">
+          <% link_to(newspaper[:url], :target => "_blank") do %>
+            <%= image_tag newspaper[:image], class: "pressimage"%>
+          <% end %>
+        </div>
         <div class="col-xs-9">
           <div class="article-review">
             <i class="fa fa-quote-left"></i><%= newspaper[:text] %>
           </div>
           <div class="article-name">
-            <%= newspaper[:name] %>
+            <% link_to(newspaper[:url], :target => "_blank") do %>
+              <%= newspaper[:name] %>
+            <% end %>
           </div>
         </div>
       </div>

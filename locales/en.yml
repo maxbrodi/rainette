@@ -1,7 +1,7 @@
 ---
 en:
-  mainmessage: Our frogs bar is open
-  address: 11 rue de la Cuisse, 75003 Paris
+  mainmessage: Our frogs bar is now open!
+  address: 5 Rue Caron, 75004 Paris
   social:
     facebook: http://www.facebook.com
     instagram: http://www.instagram.com
@@ -12,141 +12,140 @@ en:
     info: INFO
     legal: Legal Notice
   concept:
-    p1: |
-      Comme Alexandre Dumas le fait remarquer dans Le grand dictionnaire de cuisine : « Bien des médecins du Moyen Âge se sont opposés à ce qu'on mangeât cette viande qui cependant est blanche et délicate et contient un principe gélatineux plus fluide et moins nourrissant que celui des autres viandes. » Cependant il relève qu'« Au seizième siècle pourtant, les grenouilles étaient servies sur les meilleures tables, et Champier se plaignit de ce goût qu'il regarda comme bizarre, et il y a un siècle à peu près qu'un Auvergnat, nommé Simon, fit une fortune considérable avec les grenouilles qu'on lui envoyait de son pays, qu'il engraissait et qu'il vendait ensuite aux premières maisons de Paris où cet aliment était fort à la mode. »
-    p2: |
-      On peut donc en déduire que ce mets est consommé en France depuis cette époque. Dumas toujours nous dit qu'« En Italie et en Allemagne on fait une grande consommation de ces batraciens et les marchés en sont couverts, et les Anglais qui en ont horreur et qui, pour cela sans doute, faisaient il y a environ soixante ans des caricatures représentant des Français mangeant des grenouilles ... »
+    p0: "The story of Rainettes"
+    p1: "Not long ago, in  2014,  Yves, a successful maître d' and Ombeline, a dynamic and cosmopolitan young woman met whilst working in a  Parisian restaurant.  Both felt it very important to make sure their customers had a good experience and impeccable service.  Whilst talking about their love of good food and the many French dishes, known all over the world, they were surprised to find that you could hardly find Frogs legs on any menus, weather it was a Michelin star restaurant or a local bistro.  Had the French really forgotten one of their national dishes ?  The rest of the world think they eat them all the time with their baguette and cheese wearing a béret !"
+    p2: "This sent them off to find out just how many French had actually eaten frogs legs...they were astounded to find that only 55% of their countrymen had ever tasted this age old delicacy, having been enjoyed since the 16th century.  Even Alexandre Dumas enjoyed the delights of frogs legs, and the well know chef Bernard Loiseau, who is based in Borgogne, cooks them !  Times have indeed changed..."
+    p3: "With this knowledge, Yves and Ombeline decided to embark on their new adventure and open the first bar restaurant serving frogs legs, cooked in many different ways, either as a meal or taster plates,  in a friendly and chic atmosphere in the heart of Paris.  So, for all those nostalgic, and those foody globe trotters, don't wait to come and (re) discover the delights of our freshly prepared plates of frogs legs. That is how Rainette came to be started !"
   menu:
     maindishes:
-      - name: Entrées
-        price: 5
+      - name: At the bar
+        price:
         souscat:
           - items:
-            - name: Soupe de lentilles corail
-            - name: Salade de saison
-            - name: Plateau de charcuterie
-      - name: Formule découverte
-        price: 15
+            - name: Tasting frog portion
+              price: 5
+              description: "Provençale (garlic and parsley) / Fried beignets / Sautéed w BBQ sauce"
+            - name: Appetizer frog portion
+              price: 14
+            - name: Mini frog patty shells
+              price: 10
+              description: with homemade crisps
+            - name: Cheese and/or charcuterie board
+              price: 15
+      - name: Frog leg plates
+        price: 25
+        souscat:
+          - description: "Choices of frog leg flavors:"
+            items:
+              - name: Provence
+                description: garlic and parsley
+              - name: Normandy
+                description: "apples, Calvados, cream"
+              - name: Sichuan
+                description: "cilantro, ginger, onion, garlic, chilli, soy sauce, honey"
+              - name: Alsace
+                description: "Riesling wine, shallots, parsley"
+              - name: Iberia
+                description: "spicy chorizo, preserved lemons, basil, red pepper"
+          - description: "Side dishes:"
+            items:
+              - name: Rice of the moment
+              - name: Potato gratin
+              - name: Vegetables of the season
+      - name: Frog legs meal for two
+        price: 35
         souscat:
           - items:
-            - name: Grenouilles et verre de vin
-      - name: Planches
-        price: 18
+            - name: Two frog legs meal to choose
+            - name: Two side dishes to choose
+      - name: Meal of the moment
+        price: 17
         souscat:
-          - description: Grenouilles à choisir parmi
-            items:
-              - name: Meunières
-                description: et ses 2 sauces
-              - name: Tempura
-                description: aux herbes
-              - name: A la panure persillée
-                description: et ses 3 sauces
-              - name: A la panure d’encre de seiche
-                description: et ses 3 sauces
-              - name: A la persillade
-                description: et julienne de lard
-              - name: Caramélisées
-                description: façon Yakitori
-              - name: Marinées au gingembre et au citron vert
-                description: condiment coriandre et citronnelle
-              - name: Ravioles de grenouilles
-                description: sauce poulette
-              - name: Panées à la noisette
-                description: sauce aigre doux et coco
-              - name: Façon saté
-          - description: 2 accompagnements à choisir parmi
-            items:
-              - name: Pommes grenouille
-              - name: Pommes gaufrettes
-              - name: Pommes frites à l’ail semoule
-              - name: Céleri et rhubarbe cuits
-              - name: Assortiment de purées de saison
-              - name: Maïs soufflé
-              - name: Légumes gratinés au parmesan
-              - name: Courgette farcie de légumes
+          - items:
+            - name: Vegetarian
+            - name: Meat or Fish
+      - name: Cheese plate
+        price: 12
+        souscat:
     dessertdrinks:
+      - name: Starters
+        price: 9
+        souscat:
+          - items:
+            - name: Fried frog legs beignets
+            - name: Snails
+            - name: Crispy goat’s cheese
+              description: served with a spinach salad
       - name: Desserts
-        price: 8
+        price: 9
         souscat:
           - items:
-            - name: Gâteau caramélisé aux pommes
-            - name: Fondant au chocolat praliné
-            - name: Marquise au chocolat
-      - name: Cocktails
-        price: 13
+            - name: Charlotte chocolate cake
+            - name: Apple pie
+            - name: Crème renversée
+            - name: Rhum baba
+      - name: Nos Cocktails
+        price: 11
         souscat:
           - items:
-            - name: Cocktail Rouge
-            - name: Cocktail Bleu
-            - name: Cocktail Cyan
-            - name: Cocktail Abricot
-            - name: Cocktail Rose
-            - name: Cocktail Violet
-      - name: Vins
+            - name: Bombina
+              description: "Champagne, blue curaçao liqueur, lemon juice, Amaretto"
+            - name: Phyllobates
+              description: "Saint Germain elderberry liqueur, orange Bitters, sugar, sparkling water"
+            - name: Pélodyte
+              description: "vodka, triple sec liqueur, tonic, kiwi syrup"
+            - name: Crossodactylus
+              description: "3 types of rhum, exotic juices"
+            - name: Ridibunda
+              description: "bourbon whiskey, Saint Germain elderberry liqueur, orange Bitters, sugar, sparkling water"
+            - name: Rana Temporaria
+              description: "golden Tequila, sugar syrup, lemon juice, egg white, Xeres Amontillado, orange Bitters"
+            - name: Discoglosse
+              description: "cognac, calvados, Bitter Truth Jerry Thomas Bitters, vanilla Bitters"
+      - name: Refreshing homemade drinks
+        price: 6
+        souscat:
+          - items:
+            - name: Homemade iced tea
+            - name: Fresh orange juice
+            - name: Fresh apple juice
+      - name: Selection of wines
         souscat:
             - items:
-              - name: Verre
-                price: 5
-              - name: Chateau Poisson
-                price: 25
-              - name: Chateau Chat
-                price: 30
-              - name: Chateau Plume
-                price: 40
-      - name: Bières
-        souscat:
-            - items:
-              - name: Bière 25cl
-                price: 4.5
-              - name: Beer 25cl
-                price: 4.5
-              - name: Cerveza 50cl
-                price: 7
-      - name: Boissons chaudes
-        souscat:
-          - items:
-            - name: Café
-              price: 2
-            - name: Thé
-              price: 2.5
-      - name: Soft
-        souscat:
-          - items:
-            - name: Coca-Cola
-              price: 3
-            - name: Coca-Cola Light
-              price: 3
-            - name: Coca-Cola Zero
-              price: 3
+              - name: "By the glass, in carafe or bottles"
   press:
-    - name: Le Monde
-      url: http://www.lemonde.fr/
-      image: lemonde.png
-      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
-    - name: Le Monde
-      url: http://www.lemonde.fr/
-      image: lemonde.png
-      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
-    - name: Techcrunch
-      url: http://www.techcrunch.com/
-      image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
+    - name: Elle
+      url: http://www.elle.fr/Loisirs/Sorties/Restaurants/Nouveaux-restaurants-Paris/Rainettes-le-premier-bar-a-grenouilles
+      image: elle.png
+      text: "Those who are nostalgic, your voice has been heard."
+    - name: Telerama
+      url: http://www.telerama.fr/sortir/ces-restaurants-dont-tout-le-monde-va-parler-a-la-rentree,146807.php
+      image: telerama.png
+      text: "Not exactly on earth nor on water…"
+    - name: Le Figaro
+      url: http://www.lefigaro.fr/sortir-paris/2016/09/07/30004-20160907ARTFIG00046-les-30-tables-de-la-rentree-2016-a-paris.php
+      image: lefigaro.png
+      text: "For monomaniacs, this future frog bar"
+    - name: Paris Bouge
+      url: https://www.parisbouge.com/place/4642
+      image: parisbouge.png
+      text: "Mono-product restaurants keep invading Paris"
+    - name: My Little Paris
+      url: https://www.instagram.com/p/BKbLTEJhSTw/
+      image: mylittleparis.png
+      text: "After tasting the tapas and sharing plates from Paris's first ever frog bar, we're flattered"
+    - name: Frigoandco
+      url: http://www.frigoandco.com/2016/09/rainettes-bar-a-grenouilles-paris-4/
+      image: frigoandco.png
+      text: "The recipes are original and perfectly mastered"
   info:
-    telephone: 04 57 68 09 39
-    email: beubeu@gmail.com
-    hours1: Ouvert tous les soirs 19h-22h30
-    hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
+    telephone: +33 9 86 59 63 85
+    email: contact@rainettes.com
+    hours1: Open Tuesday to Thursday 5PM-11.30PM
+    hours2: "Friday-Saturday-Sunday: 11AM-Midnight"
     companyname: Rainettes SAS
-    siret: XXXXXXXXXXX
-    adressesiege: 11 rue de la Cuisse, 75003 Paris
+    siret: 819 879 032 00020
+    adressesiege: 5 Rue Caron, 75004 Paris
   switch:
     text: Version Française
-    url: rainette/fr
+    url: /
