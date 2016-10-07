@@ -9294,6 +9294,12 @@ body {
   text-align: justify;
   font-size: 14px; }
 
+/* line 19, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_concept.scss */
+#conceptintro {
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 1em; }
+
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_home.scss */
 .news {
   background: #2c3e50;
@@ -9353,6 +9359,11 @@ body {
   font-size: 21px;
   margin-bottom: 2em; }
 
+/* line 11, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_legal.scss */
+#applause {
+  text-align: center;
+  padding-bottom: 5em; }
+
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishpage-holder {
   margin-top: 2em;
@@ -9383,7 +9394,7 @@ body {
 .catdescription {
   color: #D3002E;
   font-weight: 600;
-  margin: 2em 0em 0.4em 0em; }
+  margin: 1em 0em 0.4em 0em; }
 
 /* line 34, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishlist {
