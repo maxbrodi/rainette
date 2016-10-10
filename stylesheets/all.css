@@ -9332,7 +9332,7 @@ body {
 /* line 19, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
 #map {
   display: flex;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   padding: 0; }
 
@@ -9342,10 +9342,17 @@ body {
 
 /* line 30, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
 #contact {
-  font-weight: 600;
   margin-top: 1em; }
 
-/* line 36, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+/* line 34, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#howtobook {
+  margin: 0 0 2px; }
+
+/* line 38, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#boldinfo {
+  font-weight: 600; }
+
+/* line 43, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
 #horaires p {
   margin: 4px; }
 
@@ -9385,38 +9392,40 @@ body {
   border-bottom-style: double; }
   /* line 20, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
   .dishtitle .cattitle {
-    text-align: left; }
-  /* line 23, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+    text-align: left;
+    font-family: 'Lobster', cursive; }
+  /* line 24, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
   .dishtitle .catprice {
-    text-align: right; }
+    text-align: right;
+    font-family: 'Lobster', cursive; }
 
-/* line 28, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 30, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .catdescription {
   color: #D3002E;
   font-weight: 600;
   margin: 1em 0em 0.4em 0em; }
 
-/* line 34, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 36, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishlist {
   padding-top: 0.5em;
   margin-bottom: 2em; }
 
-/* line 39, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 41, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishitem {
   padding: 0.2em 0em; }
 
-/* line 47, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 49, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishprice {
   text-align: right;
   font-weight: bold;
   color: #D3002E; }
 
-/* line 53, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 55, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .dishdescription {
   font-weight: 100;
   color: #CECECE; }
 
-/* line 58, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
+/* line 60, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_menu.scss */
 .arrow {
   width: 5%;
   padding-bottom: 2px;
