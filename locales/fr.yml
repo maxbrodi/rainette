@@ -1,6 +1,6 @@
 ---
 fr:
-  mainmessage: Le bar à Grenouilles est ouvert !
+  mainmessage: Cuisses de grenouilles en tapas ou plat, vins naturels et bio, bières françaises et cocktails de qualité
   address: 5 Rue Caron, 75004 Paris
   social:
     facebook: https://www.facebook.com/rainettesparis/
@@ -26,7 +26,7 @@ fr:
               price: 5
               description: A la provençale / En Beignets / Sautées BBQ
             - name: Planche de grenouilles
-              price: 14
+              price: 12
             - name: Mini vols au vent de grenouilles
               price: 10
               description: avec chips maison
@@ -130,10 +130,10 @@ fr:
       url: https://www.parisbouge.com/place/4642
       image: parisbouge.png
       text: "Le mono produit continue d’envahir Paris !"
-    - name: My Little Paris
-      url: https://www.instagram.com/p/BKbLTEJhSTw/
-      image: mylittleparis.png
-      text: "After tasting the tapas and sharing plates from Paris's first ever frog bar, we're flattered "
+    - name: Metropolitan
+      url: "http://metropolitan.ink-live.com/desktop/stage/default.aspx?pubname=&edid=eebc04d3-023b-4000-aa0c-b76a7a3c0a8d"
+      image: metro.png
+      text: "Les cuisses de grenouilles (...) seront le point fort de Rainettes"
     - name: Frigoandco
       url: http://www.frigoandco.com/2016/09/rainettes-bar-a-grenouilles-paris-4/
       image: frigoandco.png
@@ -143,6 +143,8 @@ fr:
     email: contact@rainettes.com
     hours1: Ouvert du mardi au jeudi de 17h à 23H30
     hours2: "Vendredi-samedi-dimanche: 11h-Minuit"
+    bookable: "Salle privatisable jusqu'à 16 personnes"
+    howtobook: "Réservations ou questions par mail ou téléphone"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris

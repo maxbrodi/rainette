@@ -18,7 +18,7 @@
 
 #map{
   display: flex;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   padding: 0;
 }
@@ -28,8 +28,15 @@
 }
 
 #contact{
-  font-weight: 600;
   margin-top: 1em;
+}
+
+#howtobook{
+  margin: 0 0 2px;
+}
+
+#boldinfo{
+  font-weight: 600;
 }
 
 #horaires{

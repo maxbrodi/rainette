@@ -1,6 +1,6 @@
 ---
 en:
-  mainmessage: Our frogs bar is now open!
+  mainmessage: Frog legs, great wine, French beer and quality cocktails
   address: 5 Rue Caron, 75004 Paris
   social:
     facebook: https://www.facebook.com/rainettesparis/
@@ -26,7 +26,7 @@ en:
               price: 5
               description: "Provençale (garlic and parsley) / Fried beignets / Sautéed w BBQ sauce"
             - name: Appetizer frog portion
-              price: 14
+              price: 12
             - name: Mini frog patty shells
               price: 10
               description: with homemade crisps
@@ -82,9 +82,9 @@ en:
           - items:
             - name: Charlotte chocolate cake
             - name: Apple pie
-            - name: Crème renversée
+            - name: Crème caramel
             - name: Rhum baba
-      - name: Nos Cocktails
+      - name: Rainettes's cocktails
         price: 11
         souscat:
           - items:
@@ -130,10 +130,10 @@ en:
       url: https://www.parisbouge.com/place/4642
       image: parisbouge.png
       text: "Mono-product restaurants keep invading Paris"
-    - name: My Little Paris
-      url: https://www.instagram.com/p/BKbLTEJhSTw/
-      image: mylittleparis.png
-      text: "After tasting the tapas and sharing plates from Paris's first ever frog bar, we're flattered"
+    - name: Metropolitan
+      url: "http://metropolitan.ink-live.com/desktop/stage/default.aspx?pubname=&edid=eebc04d3-023b-4000-aa0c-b76a7a3c0a8d"
+      image: metro.png
+      text: "Frogs' legs are the focus at new Paris eaterie Rainettes"
     - name: Frigoandco
       url: http://www.frigoandco.com/2016/09/rainettes-bar-a-grenouilles-paris-4/
       image: frigoandco.png
@@ -143,6 +143,8 @@ en:
     email: contact@rainettes.com
     hours1: Open Tuesday to Thursday 5PM-11.30PM
     hours2: "Friday-Saturday-Sunday: 11AM-Midnight"
+    bookable: "Private room for up to 16 guests"
+    howtobook: "You may write us an email or call us to make a reservation"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris
