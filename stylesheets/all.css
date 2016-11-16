@@ -9356,6 +9356,15 @@ body {
 #horaires p {
   margin: 4px; }
 
+/* line 49, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+#lafourchette a {
+  font-weight: 600;
+  color: #d3002e; }
+  /* line 52, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_info.scss */
+  #lafourchette a:hover {
+    color: #b30027;
+    text-decoration: none; }
+
 /* line 1, /Users/brodi/code/maxbrodi/rainette/source/stylesheets/pages/_legal.scss */
 .mentions {
   padding: 4em; }
