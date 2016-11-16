@@ -13,7 +13,7 @@ en:
     legal: Legal Notice
   concept:
     p0: "The story of Rainettes"
-    p1: "Not long ago, in  2014,  Yves, a successful maître d' and Ombeline, a dynamic and cosmopolitan young woman met whilst working in a  Parisian restaurant.  Both felt it very important to make sure their customers had a good experience and impeccable service.  Whilst talking about their love of good food and the many French dishes, known all over the world, they were surprised to find that you could hardly find Frogs legs on any menus, weather it was a Michelin star restaurant or a local bistro.  Had the French really forgotten one of their national dishes ?  The rest of the world think they eat them all the time with their baguette and cheese wearing a béret !"
+    p1: "Not long ago, in  2014,  Yves, a successful maître d' and Ombeline, a dynamic and cosmopolitan young woman met whilst working in a  Parisian restaurant.  Both felt it very important to make sure their customers had a good experience and impeccable service.  Whilst talking about their love of good food and the many French dishes, known all over the world, they were surprised to find that you could hardly find Frogs legs on any menus, whether it was a Michelin star restaurant or a local bistro.  Had the French really forgotten one of their national dishes ?  The rest of the world think they eat them all the time with their baguette and cheese wearing a béret !"
     p2: "This sent them off to find out just how many French had actually eaten frogs legs...they were astounded to find that only 55% of their countrymen had ever tasted this age old delicacy, having been enjoyed since the 16th century.  Even Alexandre Dumas enjoyed the delights of frogs legs, and the well know chef Bernard Loiseau, who is based in Borgogne, cooks them !  Times have indeed changed..."
     p3: "With this knowledge, Yves and Ombeline decided to embark on their new adventure and open the first bar restaurant serving frogs legs, cooked in many different ways, either as a meal or taster plates,  in a friendly and chic atmosphere in the heart of Paris.  So, for all those nostalgic, and those foody globe trotters, don't wait to come and (re) discover the delights of our freshly prepared plates of frogs legs. That is how Rainette came to be started !"
   menu:
@@ -144,7 +144,8 @@ en:
     hours1: Open Tuesday to Thursday 6PM-11.30PM
     hours2: "Friday-Saturday-Sunday: Noon-Midnight"
     bookable: "Private room for up to 16 guests"
-    howtobook: "You may write us an email or call us to make a reservation"
+    howtobook: "You may write us an email or call us to make a reservation:"
+    bookonline: "Book now!"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris

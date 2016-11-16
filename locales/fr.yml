@@ -144,7 +144,8 @@ fr:
     hours1: Ouvert du mardi au jeudi de 18h à 23H30
     hours2: "Vendredi-samedi-dimanche: Midi-Minuit"
     bookable: "Salle privatisable jusqu'à 16 personnes"
-    howtobook: "Réservations ou questions par mail ou téléphone"
+    howtobook: "Réservations ou questions par mail ou téléphone:"
+    bookonline: "Réservation en ligne"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris

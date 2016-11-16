@@ -44,3 +44,14 @@
     margin: 4px;
   }
 }
+
+#lafourchette{
+  a{
+    font-weight: 600;
+    color: #d3002e;
+    &:hover {
+    color: #b30027;
+    text-decoration: none;
+    }
+  }
+}
