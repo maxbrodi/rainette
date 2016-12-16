@@ -149,6 +149,8 @@ fr:
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris
+    reservation: "https://reservations.1001menus.com/indexv2.php?rid=347707&pid=1001&padding=0&type=web&lang=fr"
+    privatisation: "https://reservations.1001menus.com/privatisation.php?rid=347707&pid=1001&padding=0&type=web&lang=fr"
   switch:
     text: English version
     url: /en

@@ -44,7 +44,8 @@ title: Rainettes Paris - Infos du Restaurant
           <div id="contact">
             <p id="howtobook"><%= t(:info)[:howtobook] %></p>
             <p id="boldinfo"><%= t(:info)[:telephone] %> - <%= t(:info)[:email] %> </p>
-            <p id="lafourchette"><% link_to "https://reservations.1001menus.com/indexv2.php?rid=347707&pid=1001&padding=0&type=web" do %><% end %></p>
+            <p id="lafourchette"><% link_to t(:info)[:reservation] do %><% end %></p>
+            <p id="lafourchette"><% link_to t(:info)[:privatisation] do %><% end %></p>
           </div>
         </div>
       </div>
