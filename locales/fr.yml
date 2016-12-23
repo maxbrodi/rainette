@@ -17,6 +17,7 @@ fr:
     p2: "Pendant plusieurs mois, Yves et Ombeline crapauhutent pour récolter des statistiques. La prise de conscience est dramatique: seuls 55% des français ont déjà goûté à ce plat pourtant bien gaulois, consommé depuis le XVIème siècle, glorifié par Alexandre Dumas et sublimé par les plus grands chefs étoilés tel Bernard Loiseau avec ses fameuses cuisses à l’ail et au persil ! Les temps ont bien changé."
     p3: "Les deux foodistas prennent leur courage à deux palmes : le retour de la grenouille sera désormais leur combat. Se métamorphosant en hérauts de la grenouille française, ils s’attaquent à ce marché qui croâ et s’attèlent à leurs marmites. Pour cela ils créent Rainettes, le premier bar à grenouilles, où frogstalgiques et food trotters peuvent venir (re)découvrir, sous forme de plat ou d’apéritif à partager, des cuisses étonnamment appétissantes déclinées à l’infini, dans une ambiance conviviale au coeur de Paris."
   menu:
+    link: http://menuwidget.mobimenu.fr/?mpres=long&rid=347707&mid=421076&mbg=none&mtbg=none&mtfco=D3002E&mcatbg=none&mcatfs=20&mcatfco=222&mscatbg=none&mscatfs=18&mscatfco=222&mdibg=none&mdifco=555&mdib=none&mdidfco=555&hac=black&hc=222&hbg=none&gfont=1&mft=Raleway
     maindishes:
       - name: Au bar
         price:
@@ -146,6 +147,7 @@ fr:
     bookable: "Salle privatisable jusqu'à 16 personnes"
     howtobook: "Réservations ou questions par mail ou téléphone:"
     bookonline: "Réservation en ligne"
+    privatizeonline: "Demande de privatisation"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris

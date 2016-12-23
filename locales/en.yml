@@ -17,6 +17,7 @@ en:
     p2: "This sent them off to find out just how many French had actually eaten frogs legs...they were astounded to find that only 55% of their countrymen had ever tasted this age old delicacy, having been enjoyed since the 16th century.  Even Alexandre Dumas enjoyed the delights of frogs legs, and the well know chef Bernard Loiseau, who is based in Borgogne, cooks them !  Times have indeed changed..."
     p3: "With this knowledge, Yves and Ombeline decided to embark on their new adventure and open the first bar restaurant serving frogs legs, cooked in many different ways, either as a meal or taster plates,  in a friendly and chic atmosphere in the heart of Paris.  So, for all those nostalgic, and those foody globe trotters, don't wait to come and (re) discover the delights of our freshly prepared plates of frogs legs. That is how Rainette came to be started !"
   menu:
+    link: http://menuwidget.mobimenu.fr/?mpres=long&rid=347707&mid=421141&mbg=none&mtbg=none&mtfco=D3002E&mcatbg=none&mcatfs=20&mcatfco=222&mscatbg=none&mscatfs=18&mscatfco=222&mdibg=none&mdifco=555&mdib=none&mdidfco=555&hac=black&hc=222&hbg=none&gfont=1&mft=Raleway
     maindishes:
       - name: At the bar
         price:
@@ -146,6 +147,7 @@ en:
     bookable: "Private room for up to 16 guests"
     howtobook: "You may write us an email or call us to make a reservation:"
     bookonline: "Book now!"
+    privatizeonline: "Privatization request"
     companyname: Rainettes SAS
     siret: 819 879 032 00020
     adressesiege: 5 Rue Caron, 75004 Paris
